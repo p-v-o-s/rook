@@ -107,6 +107,8 @@
 	(net 25 "unconnected-(J8-Pin_3-Pad3)")
 	(net 26 "unconnected-(J10-DAT2-Pad1)")
 	(net 27 "unconnected-(J10-DAT1-Pad8)")
+	(net 28 "BUTTON_A")
+	(net 29 "BUTTON_B")
 	(footprint "footprints:JST_SH4_SKINNY"
 		(layer "F.Cu")
 		(uuid "00b7875a-81a0-4f28-80ef-74f4c2c902c3")
@@ -1112,7 +1114,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.SilkS" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "BUSY")
+			(net 29 "BUTTON_B")
 			(pinfunction "P0.24")
 			(pintype "input")
 			(uuid "2749794d-63e9-46fa-9933-8daade8517c5")
@@ -1123,7 +1125,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.SilkS" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "MISO")
+			(net 28 "BUTTON_A")
 			(pinfunction "P1.00")
 			(pintype "input")
 			(uuid "ac49c501-efa4-46ea-befc-e17f9cc17ca0")
@@ -1222,7 +1224,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.SilkS" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "A0")
+			(net 16 "MISO")
 			(pinfunction "AIN0/P0.02")
 			(pintype "input")
 			(uuid "f02f506c-12e0-4232-a76d-4b3979db3fd7")
@@ -1233,7 +1235,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.SilkS" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "A5_SD")
+			(net 13 "BUSY")
 			(pinfunction "AIN5/P0.29")
 			(pintype "input")
 			(uuid "281781b0-d4ae-4e1d-adaa-6dbebfe9d176")
@@ -3033,12 +3035,13 @@
 	(footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
 		(layer "F.Cu")
 		(uuid "497f617b-4647-4a61-933c-6702a5432839")
-		(at 71.5 6.3 -90)
+		(at 71.99 6.25 -90)
 		(descr "tactile switch SPST right angle, PTS645VL31-2 LFS")
 		(tags "tactile switch SPST angled PTS645VL31-2 LFS C&K Button")
 		(property "Reference" "SW1"
 			(at 2.3 2.25 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cb7b8a1a-08c4-424c-b68b-4276283cb04d")
 			(effects
 				(font
@@ -3414,7 +3417,7 @@
 			(drill 0.99)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "A0")
+			(net 28 "BUTTON_A")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "d6837147-dced-4896-b6ce-7fde64c9c5f6")
@@ -4547,7 +4550,7 @@
 			(at 2.1 0.875 180)
 			(size 0.7 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 2 "A5_SD")
+			(net 1 "P1_06")
 			(pinfunction "DAT3/CD")
 			(pintype "bidirectional")
 			(uuid "6c569cc6-7e03-4ae4-85de-a29f25ba7152")
@@ -4660,12 +4663,13 @@
 	(footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
 		(layer "F.Cu")
 		(uuid "6cc308c9-1fc6-4ed1-baeb-9065991bd75a")
-		(at 71.5 16 -90)
+		(at 71.99 15.95 -90)
 		(descr "tactile switch SPST right angle, PTS645VL31-2 LFS")
 		(tags "tactile switch SPST angled PTS645VL31-2 LFS C&K Button")
 		(property "Reference" "SW2"
 			(at 2.45 2.25 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "346e606b-6f77-44ae-ac14-c05f88fac5a7")
 			(effects
 				(font
@@ -5030,7 +5034,7 @@
 			(drill 0.99)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "A5_SD")
+			(net 29 "BUTTON_B")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "5148c8ac-4bd0-4069-8758-2eefe9d5edd3")
@@ -5176,12 +5180,13 @@
 	(footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
 		(layer "F.Cu")
 		(uuid "97e754af-457a-4654-84c0-ebe8496b7b32")
-		(at 71.5 25.85 -90)
+		(at 71.99 25.8 -90)
 		(descr "tactile switch SPST right angle, PTS645VL31-2 LFS")
 		(tags "tactile switch SPST angled PTS645VL31-2 LFS C&K Button")
 		(property "Reference" "SW3"
 			(at 2.39 2.25 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d04968bb-9b71-43e1-8d1e-72b6b465761d")
 			(effects
 				(font
@@ -9414,6 +9419,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "B"
+		(at 68.39 19.05 0)
+		(layer "F.SilkS")
+		(uuid "0bab4faf-9db8-4eab-b681-f22087450262")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "RST"
 		(at -1.55 10.15 90)
 		(layer "F.SilkS")
@@ -9569,6 +9587,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "C"
+		(at 68.34 29 0)
+		(layer "F.SilkS")
+		(uuid "7f6c6873-11e7-4f9b-bece-64e8d7785b5e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "v0.1"
 		(at 58.65 35.685 0)
 		(layer "F.SilkS")
@@ -9605,6 +9636,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "A"
+		(at 68.19 9.55 0)
+		(layer "F.SilkS")
+		(uuid "99fd7ce8-6640-455d-aa01-b35c2a3f9448")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
