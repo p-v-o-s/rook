@@ -6,7 +6,7 @@ plate_width=88+x_shift;
 keyboard_height=54;
 rook_height=44;
 margin_between=20;
-margin_above=10;
+margin_above=20;
 plate_height=keyboard_height+rook_height+margin_between+margin_above;
 
 r_h1_x=0;
