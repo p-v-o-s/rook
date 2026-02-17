@@ -68,46 +68,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -4 -10)
-		(end 0 -10)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "a605757c-3efe-4589-aa5e-5c1a5904c23d")
-	)
-	(fp_line
-		(start -4 17)
-		(end -4 -10)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "3e0bc8d0-b4de-4597-b5e4-de669d7e37cf")
-	)
-	(fp_line
-		(start -4 17)
-		(end -4 28)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "8437102f-409c-4b15-b1a4-c53779fb45fb")
-	)
-	(fp_line
-		(start -4 28)
-		(end 0 28)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "b9a24900-25c5-40f4-9b75-3e9cf3a95f52")
-	)
-	(fp_line
 		(start -1.33 -1.33)
 		(end 0 -1.33)
 		(stroke
@@ -158,26 +118,6 @@
 		(uuid "8753beda-ae62-463c-b0b1-170295c8a6aa")
 	)
 	(fp_line
-		(start 0 -10)
-		(end 60 -10)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "cbff28ee-e9c1-4705-a799-4594fd800473")
-	)
-	(fp_line
-		(start 0 28)
-		(end 60 28)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "9a306480-50a6-4e6c-8065-86bd3df4cef8")
-	)
-	(fp_line
 		(start 1.33 1.27)
 		(end 1.33 19.11)
 		(stroke
@@ -188,13 +128,73 @@
 		(uuid "ccc4d12f-4e4b-477d-90e2-3bdd9b39ed6e")
 	)
 	(fp_line
+		(start -4 -10)
+		(end 0 -10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a605757c-3efe-4589-aa5e-5c1a5904c23d")
+	)
+	(fp_line
+		(start -4 17)
+		(end -4 -10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3e0bc8d0-b4de-4597-b5e4-de669d7e37cf")
+	)
+	(fp_line
+		(start -4 17)
+		(end -4 28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8437102f-409c-4b15-b1a4-c53779fb45fb")
+	)
+	(fp_line
+		(start -4 28)
+		(end 0 28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b9a24900-25c5-40f4-9b75-3e9cf3a95f52")
+	)
+	(fp_line
+		(start 0 -10)
+		(end 60 -10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "cbff28ee-e9c1-4705-a799-4594fd800473")
+	)
+	(fp_line
+		(start 0 28)
+		(end 60 28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9a306480-50a6-4e6c-8065-86bd3df4cef8")
+	)
+	(fp_line
 		(start 60 -10)
 		(end 60 28)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "57722fd0-c1b6-4f75-ad81-8fb85ece7d36")
 	)
 	(fp_line
