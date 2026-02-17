@@ -21,6 +21,7 @@ y_shift=keyboard_height+margin_between;
 height=100;
 BottomRadius=3;
 
+projection() {
 difference() {
 cube(size=[plate_width,plate_height,2],center=false);
 
@@ -41,6 +42,7 @@ cylinder(h = height, r = BottomRadius, center = true);
 //keyboard hole
 translate([x_shift,keyboard_height,0])
 cylinder(h = height, r = BottomRadius, center = true);
+}
 }
 /*
 translate([-24,0,0]) {
