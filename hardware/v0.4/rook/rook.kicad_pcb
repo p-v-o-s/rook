@@ -14967,7 +14967,7 @@
 	)
 	(gr_text "3V"
 		(locked yes)
-		(at 63.75 23.55 0)
+		(at 64.025 23.5 0)
 		(layer "B.SilkS")
 		(uuid "0d78aed7-732f-41f0-b52f-298e141608dc")
 		(effects
@@ -14980,7 +14980,7 @@
 	)
 	(gr_text "GPS_RX"
 		(locked yes)
-		(at 63.85 21 0)
+		(at 64.125 21.1 0)
 		(layer "B.SilkS")
 		(uuid "116983c5-7598-4322-b03b-6c02c16b3fcf")
 		(effects
@@ -14993,7 +14993,7 @@
 	)
 	(gr_text "GPS_GND"
 		(locked yes)
-		(at 64 16.45 0)
+		(at 64.325 16.725 0)
 		(layer "B.SilkS")
 		(uuid "c512848b-e34f-4c08-a383-1ebf88768bc3")
 		(effects
@@ -15006,7 +15006,7 @@
 	)
 	(gr_text "GPS_TX"
 		(locked yes)
-		(at 63.95 18.5 0)
+		(at 64.175 18.625 0)
 		(layer "B.SilkS")
 		(uuid "f943da75-f9f1-462c-88e5-c55de68a9aa1")
 		(effects
